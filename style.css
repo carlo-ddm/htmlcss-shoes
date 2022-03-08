@@ -46,20 +46,25 @@ font-family: 'Syne Mono', monospace;
   box-shadow: 2px 2px 5px black
 }
 
+li a {
+  text-decoration: none;
+  
+}
+
 .box {
   position: relative;
   height: 100vh;
 }
 
-.red {
+.box.red {
   background-color: red;
 }
 
-.green {
+.box.green {
   background-color: #0F7001;
 }
 
-.yellow {
+.box.yellow {
   background-color: #FFFF0B;
 }
 
@@ -82,3 +87,5 @@ font-family: 'Syne Mono', monospace;
   color: #0F7001;
   font-size: 50px;
 }
+
+/* Overlay */
