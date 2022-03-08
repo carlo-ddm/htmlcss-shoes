@@ -32,23 +32,11 @@ font-family: 'Syne Mono', monospace;
 /* In questo caso non serve il trick per le ancore che finiscono dietro al menù fixed */
 
 .menu ul li {
-  display: inline-block;
   list-style: none;
-  width: 40px;
-  height: 40px;
-  background-color: white;
-  border-radius: 100%;
-  margin: 15px;
-  box-shadow: 2px 2px 5px black;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 40px;
-  cursor: pointer;
 }
 
 li a {
   text-decoration: none;
-  
 }
 
 .box {
@@ -89,3 +77,24 @@ li a {
 }
 
 /* Overlay: vedere a lezione come si mette */
+
+.container-list {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100%;
+  margin: 15px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 40px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Ricorda: overflow: hidden a contenitore di overlay */
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+}
